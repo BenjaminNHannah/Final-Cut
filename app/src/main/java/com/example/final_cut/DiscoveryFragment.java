@@ -14,11 +14,11 @@ public class DiscoveryFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        // Inflates the designated modular layout framework
+
         return inflater.inflate(R.layout.fragment_discovery, container, false);
     }
 
-    // Lesson 3 Concept: Simulating state preservation or passing configurations via Bundles
+    // Lesson 3 Concept:
     public void simulateSavingPreferences() {
         Bundle userPreferences = new Bundle();
         userPreferences.putString("SELECTED_GENRE", "Sci-Fi");
@@ -26,11 +26,11 @@ public class DiscoveryFragment extends Fragment {
         Log.d(TAG, "Preferences bundled safely: " + userPreferences.toString());
     }
 
-    // Lesson 3 Concept: Blueprinting an Implicit Intent structure to open movie links/trailers
+    // Lesson 3 Concept:
     public void watchTrailer() {
         String trailerUrl = "https://www.youtube.com";
 
-        // System intent acting as structural glue to target external handling applications
+        // System intent acting to target external handling applications
         Intent trailerIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(trailerUrl));
         startActivity(trailerIntent);
     }
