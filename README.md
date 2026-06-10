@@ -34,38 +34,35 @@ A nice UI that lets users easily navigate the application without being lost in 
 
 
 ## Module 1 Breakdown:
+
 **'Initial project outline'**: I submitted the initial project outline and description.
 **'Created initial ReadMe and Wiki Page'**
 
 ## Module 2 Breakdown: 
 
 **'AndroidManifest.xml:'** Declared 'MainActivity' as primary launch entry point for the app.
-
 **'MainActivity.java:'** Is the UI Shell, it uses FragmentManager and FragmentTransaction to create the user interface screen configuration. 
-
 **'DiscoveryFragment.java' & 'fragment_discovery.xml'**: Add a UI screen structure to create the "Welcome to Final-Cut!" interface.
-
 **'Intents/Bundles Blueprint'**: Added intent frameworks to pass data to external media players or web browsers to allow the video trailers to playback.
 
 
 ## Module 3 Breakdown: 
 
 **'ScrollView Framework'**: To ensure responsive screen we added support for various displays and aspect ratios to the application
-
-**'LinearLayout Configuration'**: We added a model that allows boundaries to be clearly dilineated without clogging up the screen.
-
+**'LinearLayout Configuration'**: We added a model that allows boundaries to be clearly delineated without clogging up the screen.
 **'TextView Architecture'**: We added a stylish set of text views that look clean and are easy to read.
-
 **'RadioGroup & RadioButtons'**: Added user input buttons to permit the filtering of genres.
-
 **'CheckBox Widgets'**: Added input check boxes for users to input their personal streaming service filters as well.
-
 **'Button UI Action Trigger'**: Added a "Generate Movie Recommendation" button which will map to randomly select a movie once the database is connected.
 
 ## Module 4 Breakdown: 
 
 **'ImageView Framework'**: Added an ImageView container that will be a placeholder for movie posters in the future.
-
 **'WebView Layout'**: Added a WebView layout to be a place holder for upcoming trailers in the future.
+**'Updated Layout'**: Added some updated layout structure for neater UI elements.|
 
-**'Updated Layout'**: Added some updated layout structure for neater UI elements.
+## Module 5 Breakdown: 
+
+**'Persistent UI States'**: Added persistent streaming service checkboxes and radio buttons for preferred genres in the UI for users.
+**'Data Architecture Outline'**: Added a structure such that later on we will be able to utilize a database and content query management service for large lists of movies and data in an effective way.
+**'SharedPreferences'**: Added simple data preservation to keep user's filter choices stored under MODE_PRIVATE.
