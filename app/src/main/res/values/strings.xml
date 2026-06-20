@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">Final-Cut</string>
+    <string name="movie_poster_description">Movie Poster Placeholder</string>
+    <string name="discovery_subtitle">Find your perfect movie match</string>
+    <string name="select_genre">Select Preferred Genre:</string>
+    <string name="genre_action">Action / Adventure</string>
+    <string name="genre_comedy">Comedy</string>
+    <string name="genre_scifi">Sci-Fi / Fantasy</string>
+    <string name="streaming_services">Your Streaming Services:</string>
+    <string name="service_netflix">Netflix</string>
+    <string name="service_hulu">Hulu</string>
+    <string name="service_prime">Prime Video</string>
+    <string name="btn_generate">Generate Movie Recommendation</string>
+    <string name="share_title">Share Your Movie Night:</string>
+    <string name="btn_share_text">Text a Friend</string>
+    <string name="btn_share_email">Email a Friend</string>
+    <string name="preview_panel">Streaming Preview Panel:</string>
+    <string name="share_text_message">Movie night with Final-Cut! I\'m in the mood for a %1$s movie. Want to watch something together?</string>
+    <string name="share_email_subject">Movie Night Invite from Final-Cut</string>
+    <string name="share_email_body">I\'m using Final-Cut to find a %1$s movie. Want to join me for a movie night?</string>
 </resources>

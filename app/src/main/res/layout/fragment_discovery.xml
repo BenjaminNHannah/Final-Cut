@@ -2,11 +2,12 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FAFAFA">
+    android:background="#FAFAFA"
+    android:fillViewport="true">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="24dp">
 
@@ -17,12 +18,12 @@
             android:layout_marginBottom="16dp"
             android:background="#DDDDDD"
             android:scaleType="centerInside"
-            android:contentDescription="Movie Poster Placeholder" />
+            android:contentDescription="@string/movie_poster_description" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Final-Cut"
+            android:text="@string/app_name"
             android:textSize="28sp"
             android:textStyle="bold"
             android:textColor="#333333" />
@@ -30,7 +31,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Find your perfect movie match"
+            android:text="@string/discovery_subtitle"
             android:textSize="14sp"
             android:textColor="#777777"
             android:layout_marginTop="4dp"
@@ -39,7 +40,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Select Preferred Genre:"
+            android:text="@string/select_genre"
             android:textSize="16sp"
             android:textStyle="bold"
             android:textColor="#333333"
@@ -56,21 +57,21 @@
                 android:id="@+id/radioAction"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Action / Adventure"
+                android:text="@string/genre_action"
                 android:textSize="16sp" />
 
             <RadioButton
                 android:id="@+id/radioComedy"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Comedy"
+                android:text="@string/genre_comedy"
                 android:textSize="16sp" />
 
             <RadioButton
                 android:id="@+id/radioSciFi"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Sci-Fi / Fantasy"
+                android:text="@string/genre_scifi"
                 android:textSize="16sp"
                 android:checked="true" />
         </RadioGroup>
@@ -78,7 +79,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Your Streaming Services:"
+            android:text="@string/streaming_services"
             android:textSize="16sp"
             android:textStyle="bold"
             android:textColor="#333333"
@@ -88,7 +89,7 @@
             android:id="@+id/checkNetflix"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Netflix"
+            android:text="@string/service_netflix"
             android:textSize="16sp"
             android:checked="true" />
 
@@ -96,14 +97,14 @@
             android:id="@+id/checkHulu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hulu"
+            android:text="@string/service_hulu"
             android:textSize="16sp" />
 
         <CheckBox
             android:id="@+id/checkPrime"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Prime Video"
+            android:text="@string/service_prime"
             android:textSize="16sp"
             android:layout_marginBottom="24dp" />
 
@@ -111,7 +112,7 @@
             android:id="@+id/btnGenerateMovie"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Generate Movie Recommendation"
+            android:text="@string/btn_generate"
             android:textSize="16sp"
             android:padding="12dp"
             android:layout_marginBottom="24dp"/>
@@ -119,7 +120,34 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Streaming Preview Panel:"
+            android:text="@string/share_title"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnShareText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_share_text"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnShareEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_share_email"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/preview_panel"
             android:textSize="16sp"
             android:textStyle="bold"
             android:textColor="#333333"
