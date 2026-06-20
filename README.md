@@ -66,3 +66,15 @@ A nice UI that lets users easily navigate the application without being lost in 
 **'Persistent UI States'**: Added persistent streaming service checkboxes and radio buttons for preferred genres in the UI for users.
 **'Data Architecture Outline'**: Added a structure such that later on we will be able to utilize a database and content query management service for large lists of movies and data in an effective way.
 **'SharedPreferences'**: Added simple data preservation to keep user's filter choices stored under MODE_PRIVATE.
+
+## Module 6 Breakdown:
+
+**'Messaging and Sharing'**: Added the ability to invite a friend to a movie night via text messaging or email by using Intents to send SMS. The shared message can reference the currently selected genre.
+
+## Module 7 Breakdown:
+
+**'Internet permissions'**: Added the INTERNET permission to permit the application to make network connections.
+
+**'Live movie APIs'**: Added the ability to connect to The Movie Database (TMDB) in order to pull real time movie information from their servers to give users a complete movie database to generate recommendations from!
+
+**'Movie Posters'**: Added the ability for the app to pull movie posters in order to display an image related to the movie recommendation.
