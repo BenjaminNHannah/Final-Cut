@@ -14,11 +14,28 @@
         <ImageView
             android:id="@+id/moviePosterImage"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_marginBottom="16dp"
+            android:layout_height="220dp"
+            android:layout_marginBottom="8dp"
             android:background="#DDDDDD"
-            android:scaleType="centerInside"
+            android:scaleType="centerCrop"
             android:contentDescription="@string/movie_poster_description" />
+
+        <TextView
+            android:id="@+id/movieTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/movieOverview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#555555"
+            android:layout_marginBottom="20dp" />
 
         <TextView
             android:layout_width="wrap_content"

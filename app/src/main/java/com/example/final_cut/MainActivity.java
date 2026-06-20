@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Lesson 3 Concept: Manipulating fragments programmatically
+
         if (savedInstanceState == null) {
             FragmentManager fragmentManager = getSupportFragmentManager();
             FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    // Lesson 3 Concepts: Monitoring key activity lifecycle events
+
     @Override
     protected void onStart() {
         super.onStart();
