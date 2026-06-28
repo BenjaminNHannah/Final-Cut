@@ -78,3 +78,9 @@ A nice UI that lets users easily navigate the application without being lost in 
 **'Live movie APIs'**: Added the ability to connect to The Movie Database (TMDB) in order to pull real time movie information from their servers to give users a complete movie database to generate recommendations from!
 
 **'Movie Posters'**: Added the ability for the app to pull movie posters in order to display an image related to the movie recommendation.
+
+## Module 8 Breakdown: 
+
+**'UI improvements'**: Beautified and created a much more simplistic and intuitive UI for the application. 
+
+**'Genre dropdown menu'**: Added a dropdown menu for the movie genres.
